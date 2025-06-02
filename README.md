@@ -1,5 +1,28 @@
-# Cryptographic-Image-Testing-Master
-This program is used to evaluate the security results of displaying ciphertext images, such as pixel histograms, 3D visualization, information entropy, pixel correlation, etc；该程序用来对显示密文图像的安全性结果（比如像素直方图、三维可视化、信息熵、像素相关性等）
+## 📖 About
+
+**ImageCipherSecuritySuite** is a cross-platform toolkit designed to evaluate the security characteristics of encrypted (ciphertext) images through both visual and statistical analysis.
+
+The program supports grayscale and RGB images and includes the following evaluation methods:
+
+- 📊 Pixel histogram analysis  
+- 🌐 3D surface visualization of pixel intensities  
+- 🧮 Information entropy calculation  
+- 📈 Adjacent pixel correlation (coefficients and scatter plots)  
+- 🔍 Optional NPCR and UACI metrics for comparison with the original image  
+
+---
+
+该程序用于评估**密文图像的安全性特征**，通过可视化与统计指标来直观展示图像加密效果。
+
+支持灰度图与 RGB 彩色图像，核心功能包括：
+
+- 📊 像素灰度直方图分析  
+- 🌐 像素强度三维表面图可视化  
+- 🧮 信息熵计算  
+- 📈 相邻像素相关性分析（系数与散点图）  
+- 🔍 可选支持原图与密文图的 NPCR / UACI 指标对比
+
+
 
 # 🔐 Image Cipher Analyzer
 
